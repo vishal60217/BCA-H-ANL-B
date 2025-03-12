@@ -9,4 +9,10 @@ array=np.array([[1,2,3],[4,5,6]])
 
 array_type=type(array)
 
+# 3. Type of elements in array
+
+element_type = array.dtype
+
+print("Type of elements in array:", element_type)
+
 
