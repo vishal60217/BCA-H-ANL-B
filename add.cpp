@@ -3,8 +3,8 @@
 void main()
 {
 int a,b,c;
-a=10, b=10;
+a=100,b=100,c;
 c=a+b;
-cout<<c;
+printf("the value of c after addition %d",c);
 getch();
 }
